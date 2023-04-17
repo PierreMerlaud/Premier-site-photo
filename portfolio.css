@@ -9,7 +9,7 @@
   
   .portfolio-section-photos h2 {
     color: #242424;
-    margin-bottom: 80px;
+    margin-bottom: 1rem;
   }
   
   .grid-color {
@@ -17,6 +17,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 25rem 25rem 25rem;
     gap: 1rem;
+    margin-bottom: 3rem;
   }
   
   .grid-NB {
@@ -81,7 +82,11 @@
     width: 65%;
     margin: auto;
   }
+
+  .grid-color {
+    margin-bottom: 3rem;
   }
+}
 
   @media screen and (max-width: 500px) {
     .grid-color,

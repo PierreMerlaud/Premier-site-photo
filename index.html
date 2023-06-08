@@ -16,27 +16,27 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <a href="index.html" class="lien-icone">
                 <div>
-                    <h1>PM</h1>
+                    <h1 class="navbar__logo">PM</h1>
                 </div>
             </a>
             <div>
-                <a href="index.html">Accueil</a>
-                <a href="a-propos.html">À propos</a>
-                <a href="galerie.html">Galerie</a>
+                <a class="navbar__link" href="index.html">Accueil</a>
+                <a class="navbar__link" href="a-propos.html">À propos</a>
+                <a class="navbar__link" href="galerie.html">Galerie</a>
             </div>
         </nav>
     </header>
     <main>
-        <section class="accueil-introduction">
-            <div class="intro-texte">
-                <h1>Photographie</h1>
-                <p>
+        <section class="introduction">
+            <div class="introduction__content-container">
+                <h1 class="introduction__title">Photographie</h1>
+                <p class="introduction__content">
                     Bienvenue sur mon site de photographe amateur. <br />
                     Je partage ici quelques clichés pris ici et là, avec un
-                    point commun : le <em>support argentique</em> ! <br />
+                    point commun : le <em class="intro__content--blue">support argentique</em> ! <br />
                     En espérant que certains vous plairont. Jetez un oeil à la
                     gallerie, et n'hésitez pas à me contacter si vous voulez
                     parler photo !
@@ -47,42 +47,42 @@
 
 
             </div>
-            <div class="plouf">
-                <img src="images/PM.png" title="Plouf christique" alt="Portrait christique">
+            <div class="introduction__image-container">
+                <img class="introduction__image" src="images/PM.png" title="Plouf christique" alt="Portrait christique">
             </div>
         </section>
-        <section class="accueil-photos">
-            <h2>Mes dernières captures</h2>
-            <div class="photos-flex">
-                <a href="images/accueil/skater.jpg" class="lien-conteneur-photo">
-                    <img src="images/accueil/skater.jpg" alt="Twelve apostles - Australie">
-                    <div class="photo-hover">Voir la photo</div>
+        <section class="photos">
+            <h2 class="photos__title">Mes dernières captures</h2>
+            <div class="photos__container">
+                <a href="images/accueil/skater.jpg" class="photos__link">
+                    <img class="photos__img" src="images/accueil/skater.jpg" alt="Skater et grillage">
+                    <div class="photos__hover">Voir la photo</div>
                 </a>
-                <a href="images/accueil/skater2.jpg" class="lien-conteneur-photo">
-                    <img src="images/accueil/skater2.jpg" alt="Wai-O-Tapu - Nouvelle-Zélande">
-                    <div class="photo-hover">Voir la photo</div>
+                <a href="images/accueil/skater2.jpg" class="photos__link">
+                    <img class="photos__img" src="images/accueil/skater2.jpg" alt="Skater et amorce">
+                    <div class="photos__hover">Voir la photo</div>
                 </a>
 
-                <a href="images/accueil/chien.jpg" class="lien-conteneur-photo">
-                    <img src="images/accueil/chien.jpg" alt="Parc National d’Abel Tasman - Nouvelle-Zélande">
-                    <div class="photo-hover">Voir la photo</div>
+                <a href="images/accueil/chien.jpg" class="photos__link">
+                    <img class="photos__img" src="images/accueil/chien.jpg" alt="Chien et balcon">
+                    <div class="photos__hover">Voir la photo</div>
                 </a>
 
             </div>
 
-            <div class="photos-flex">
-                <a href="images/accueil/sacre-coeur.jpg" class="lien-conteneur-photo">
-                    <img src="images/accueil/sacre-coeur.jpg" alt="Lac Rotorua - Nouvelle-Zélande">
-                    <div class="photo-hover">Voir la photo</div>
+            <div class="photos__container">
+                <a href="images/accueil/sacre-coeur.jpg" class="photos__link">
+                    <img class="photos__img" src="images/accueil/sacre-coeur.jpg" alt="Sacré-Coeur">
+                    <div class="photos__hover">Voir la photo</div>
                 </a>
-                <a href="images/accueil/crepes.jpg" class="lien-conteneur-photo">
-                    <img src="images/accueil/crepes.jpg" alt="Milford Sound - Nouvelle-Zélande">
-                    <div class="photo-hover">Voir la photo</div>
+                <a href="images/accueil/crepes.jpg" class="photos__link">
+                    <img class="photos__img" src="images/accueil/crepes.jpg" alt="Marchand de crêpes">
+                    <div class="photos__hover">Voir la photo</div>
                 </a>
 
-                <a href="images/accueil/avion.jpg" class="lien-conteneur-photo">
-                    <img src="images/accueil/avion.jpg" alt="Lac Wanaka - Nouvelle-Zélande">
-                    <div class="photo-hover">Voir la photo</div>
+                <a href="images/accueil/avion.jpg" class="photos__link">
+                    <img class="photos__img" src="images/accueil/avion.jpg" alt="Aile d'avion">
+                    <div class="photos__hover">Voir la photo</div>
                 </a>
 
             </div>
@@ -92,8 +92,8 @@
                 <img src="images/accueil/avion.jpg" alt="Lac Wanaka - Nouvelle-Zélande">
             </div> -->
         </section>
-        <section id="contact" class="section-contact">
-            <h2>Contactez moi !</h2>
+        <section id="contact" class="contact">
+            <h2 class="contact__title">Contactez moi !</h2>
             <!-- <form method="get" action="#">
                 <div class="form-nom-email">
                     <div class="form-column">

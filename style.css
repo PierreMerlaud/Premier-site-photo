@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Monserrat', sans-serif;
+  font-family: "Monserrat", sans-serif;
   font-size: 1em;
   background-color: #1f2039;
 }
@@ -13,15 +13,10 @@ a {
   text-decoration: none;
 }
 
-em {
-  color: #a5b4fc;
-  font-style: normal;
-}
-
 h1 {
   font-size: 3.5em;
   color: #a5b4fc;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
@@ -69,15 +64,35 @@ section {
   padding: 4rem;
 }
 
-footer,
-nav {
+footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-nav a {
+/* bloc navbar avec éléments et modificateurs */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* éléments  */
+
+.navbar__logo {
+  border: 2px solid #a5b4fc;
+  border-radius: 20%;
+}
+
+.navbar__link {
   margin-left: 30px;
+}
+
+/* modificateurs */
+
+.navbar__link--red {
+  color: red;
 }
 
 @media screen and (max-width: 996px) {

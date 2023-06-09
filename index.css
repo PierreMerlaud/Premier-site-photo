@@ -32,7 +32,7 @@
 }
 
 .photos {
-  background-color: white;
+  background-color: #ffffff;
   padding: 4rem;
   display: flex;
   flex-direction: column;
@@ -68,7 +68,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.5em;
-  color: white;
+  color: #ffffff;
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
 }
@@ -81,11 +81,11 @@
   flex-direction: column;
   align-items: center;
 }
-.contact .contact__title {
+.contact__title {
   color: #a5b4fc;
   margin-bottom: 3rem;
 }
-.contact .contact__content {
+.contact__content {
   color: #ffffff;
 }
 
@@ -94,18 +94,18 @@
     flex-direction: column;
     margin: auto;
   }
-  .introduction .introduction__content-container {
+  .introduction__content-container {
     margin-bottom: 3rem;
     width: 80%;
     padding-right: 0;
     text-align: center;
     order: 2;
   }
-  .introduction .introduction__image-container {
+  .introduction__image-container {
     padding-right: 0;
     text-align: center;
   }
-  .introduction .introduction__image {
+  .introduction__image {
     margin-bottom: 2rem;
     border: 2px #ffffff solid;
     max-width: 96%;

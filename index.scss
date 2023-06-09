@@ -1,3 +1,12 @@
+// variables
+
+$blue-font: #a5b4fc;
+$white: #ffffff;
+
+// mixins
+
+// Avec esperluette
+
 .introduction {
   display: flex;
   width: 90%;
@@ -19,7 +28,7 @@
   &__content {
     margin-bottom: 3rem;
     &--blue {
-      color: #a5b4fc;
+      color: $blue-font;
       font-style: normal;
     }
   }
@@ -31,13 +40,15 @@
   }
 
   &__image {
-    border: 4px #ffffff solid;
+    border: 4px $white solid;
     max-width: 100%;
   }
 }
 
+// Sans esperluette
+
 .photos {
-  background-color: white;
+  background-color: $white;
   padding: 4rem;
   display: flex;
   flex-direction: column;
@@ -77,7 +88,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1.5em;
-    color: white;
+    color: $white;
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
   }
@@ -92,13 +103,13 @@
   flex-direction: column;
   align-items: center;
 
-  .contact__title {
-    color: #a5b4fc;
+  &__title {
+    color: $blue-font;
     margin-bottom: 3rem;
   }
 
-  .contact__content {
-    color: #ffffff;
+  &__content {
+    color: $white;
   }
 }
 
@@ -107,7 +118,7 @@
     flex-direction: column;
     margin: auto;
 
-    .introduction__content-container {
+    &__content-container {
       margin-bottom: 3rem;
       width: 80%;
       padding-right: 0;
@@ -115,14 +126,14 @@
       order: 2;
     }
 
-    .introduction__image-container {
+    &__image-container {
       padding-right: 0;
       text-align: center;
     }
 
-    .introduction__image {
+    &__image {
       margin-bottom: 2rem;
-      border: 2px #ffffff solid;
+      border: 2px $white solid;
       max-width: 96%;
     }
   }

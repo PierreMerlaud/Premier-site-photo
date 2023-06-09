@@ -3,7 +3,7 @@
   width: 90%;
   justify-content: space-around;
 }
-.introduction .introduction__content-container {
+.introduction__content-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,13 +11,13 @@
   width: 40%;
   padding-right: 4rem;
 }
-.introduction .introduction__title {
+.introduction__title {
   margin-bottom: 3rem;
 }
 .introduction .introduction__content {
   margin-bottom: 3rem;
 }
-.introduction .introduction__content .intro__content--blue {
+.introduction .introduction__content--blue {
   color: #a5b4fc;
   font-style: normal;
 }
@@ -139,4 +139,4 @@
   }
 }
 
-/*# sourceMappingURL=indextest.css.map */
+/*# sourceMappingURL=home.css.map */

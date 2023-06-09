@@ -16,7 +16,7 @@
     margin-bottom: 3rem;
   }
 
-  .introduction__content {
+  &__content {
     margin-bottom: 3rem;
     &--blue {
       color: #a5b4fc;
@@ -24,13 +24,13 @@
     }
   }
 
-  .introduction__image-container {
+  &__image-container {
     margin: auto;
     overflow: hidden;
     padding-right: 4rem;
   }
 
-  .introduction__image {
+  &__image {
     border: 4px #ffffff solid;
     max-width: 100%;
   }

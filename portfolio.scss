@@ -1,3 +1,5 @@
+$blue-font: #a5b4fc;
+
 .titre {
   padding: 4rem;
 }
@@ -5,7 +7,7 @@
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
-  color: #a5b4fc;
+  color: $blue-font;
 }
 
 .portfolio-section-photos {
@@ -73,12 +75,13 @@ h1 {
       grid-template-rows: 25rem 25rem 25rem;
       gap: 15px;
     }
-
+  
     .grid-NB {
       grid-template-columns: 1fr;
       grid-template-rows: 25rem 25rem 25rem;
       gap: 15px;
     } */
+
   .grid-color,
   .grid-NB {
     display: flex;
@@ -87,15 +90,15 @@ h1 {
     width: 65%;
     margin: auto;
   }
+
   .grid-color {
     margin-bottom: 3rem;
   }
 }
+
 @media screen and (max-width: 500px) {
   .grid-color,
   .grid-NB {
     width: 85%;
   }
 }
-
-/*# sourceMappingURL=portfolio.css.map */

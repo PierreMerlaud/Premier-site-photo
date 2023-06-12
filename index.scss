@@ -31,6 +31,7 @@ $blue-body: #1f2039;
     color: $blue-font;
     font-size: 3.5em;
     font-family: "Montserrat", sans-serif;
+    text-shadow: 0.1rem 0.1rem mix($blue-body, $blue-font, 70%);
   }
 
   &__content {
@@ -43,7 +44,7 @@ $blue-body: #1f2039;
 
   &__link {
     display: inline-block;
-    background: linear-gradient($blue-font, #8498fc);
+    background: linear-gradient(desaturate($blue-font, 60%), $blue-font);
     color: white;
     border-radius: 3rem;
     padding: 1.3rem 1.9rem;
@@ -133,13 +134,30 @@ $blue-body: #1f2039;
   flex-direction: column;
   align-items: center;
 
+  @media screen and (max-width: 996px) {
+    padding: 3rem 1.3rem;
+  }
+
   &__title {
     color: $blue-font;
     margin-bottom: 3rem;
   }
 
+  &__link {
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    text-decoration: underline;
+    color: $white;
+  }
+
   &__content {
     color: $white;
+  }
+
+  &__content:hover {
+    color: $blue-font;
   }
 }
 
@@ -194,9 +212,9 @@ $blue-body: #1f2039;
     }
   }
 
-  .contact {
-    padding: 3rem 1.3rem;
-  }
+  // .contact {
+  //   padding: 3rem 1.3rem;
+  // }
 
   /* .form-nom-email {
       flex-direction: column;

@@ -1,4 +1,5 @@
 $blue-font: #a5b4fc;
+$blue-body: #1f2039;
 $white: #ffffff;
 
 @mixin cta-shadow($color) {
@@ -13,6 +14,7 @@ $white: #ffffff;
     font-size: 3.5rem;
     color: $blue-font;
     text-align: center;
+    text-shadow: 0.1rem 0.1rem mix($blue-body, $blue-font, 70%);
   }
 
   &__content {

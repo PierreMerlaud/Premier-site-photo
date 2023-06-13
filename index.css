@@ -77,7 +77,8 @@
 .photos .photos__img {
   width: 100%;
   object-fit: contain;
-  border: 2px #1f2039 solid;
+  object-position: left bottom;
+  border: 0.13rem #1f2039 solid;
 }
 .photos .photos__link {
   position: relative;

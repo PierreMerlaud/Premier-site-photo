@@ -4,15 +4,15 @@
 
 ### Présentation du projet
 
--> Site de photographe amateur.
--> Projet solo. Tout premier essai de code.
+- Site de photographe amateur.
+- Projet solo. Tout premier essai de code.
 
 ### Objectifs
 
--> Pratiquer les bases d'un site web statique (HTML/CSS/Sass).
--> Appréhender l'importance du responsive. (CSS, Sass, media queries)
--> Sensibilisation à une mise en page claire et fonctionnelle (expérience utilisateur UX).
--> Expérimenter sa faculté à apprendre seul, en autonomie.
+- Pratiquer les bases d'un site web statique (HTML/CSS/Sass).
+- Appréhender l'importance du responsive. (CSS, Sass, media queries)
+- Sensibilisation à une mise en page claire et fonctionnelle (expérience utilisateur UX).
+- Expérimenter sa faculté à apprendre seul, en autonomie.
 
 ### Stack
 

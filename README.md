@@ -19,8 +19,8 @@
 [![My Skills](https://skillicons.dev/icons?i=html,sass,github,git,vscode)](https://skillicons.dev)
 
 <p>
-<img src="https://github.com/PierreMerlaud/Premier-site-photo/assets/114992735/e27a72f5-31c6-418c-b2b1-851067f84b00" width="420" style="margin: auto;">
-<img src="https://github.com/PierreMerlaud/Premier-site-photo/assets/114992735/bd9f0f98-24e4-47e2-83de-004cfece793a" alt="portfolio1" width="420" style="margin: auto;">
+<img src="https://github.com/PierreMerlaud/Premier-site-photo/assets/114992735/e27a72f5-31c6-418c-b2b1-851067f84b00" width="410" style="margin: auto;">
+<img src="https://github.com/PierreMerlaud/Premier-site-photo/assets/114992735/bd9f0f98-24e4-47e2-83de-004cfece793a" alt="portfolio1" width="410" style="margin: auto;">
 </p>
 </br>
 

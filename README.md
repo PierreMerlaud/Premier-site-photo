@@ -18,8 +18,10 @@
 
 [![My Skills](https://skillicons.dev/icons?i=html,sass,github,git,vscode)](https://skillicons.dev)
 
-<img src="https://github.com/PierreMerlaud/Premier-site-photo/assets/114992735/e7f3959e-ccae-4316-a96f-c3370356a6da" alt="portfolio1" width="500" style="margin: auto;">
-<img src="https://github.com/PierreMerlaud/Premier-site-photo/assets/114992735/2813ac2c-ed6c-4576-a82f-471dee4e5338" alt="portfolio1" width="500" style="margin: auto;">
+<img src="https://github.com/PierreMerlaud/Premier-site-photo/assets/114992735/e27a72f5-31c6-418c-b2b1-851067f84b00" width="500" style="margin: auto;">
+<img src="https://github.com/PierreMerlaud/Premier-site-photo/assets/114992735/bd9f0f98-24e4-47e2-83de-004cfece793a" alt="portfolio1" width="500" style="margin: auto;">
+
+
 
 VERSION MOBILE :
 
